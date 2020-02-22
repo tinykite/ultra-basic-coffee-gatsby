@@ -1,0 +1,102 @@
+/* .inputmonoregular {
+	font-family: "Input Mono Reg";
+	font-display: swap;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.inputmonobolditalic {
+	font-family: "Input Mono Bd It";
+	font-display: swap;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.inputmonoitalic {
+	font-family: "Input Mono It";
+	font-display: swap;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.inputmonolightitalic {
+	font-family: "Input Mono Lt It";
+	font-display: swap;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.inputmonobold {
+	font-family: "Input Mono Bd";
+	font-display: swap;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.inputmonolight {
+	font-family: "Input Mono Lt";
+	font-display: swap;
+	font-style: normal;
+	font-weight: normal;
+} */
+
+body,
+section,
+article,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  visibility: hidden;
+  font-family: "Input Mono Lt";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #19224f;
+  line-height: 1.5;
+}
+
+.wf-active p,
+.wf-active p {
+  font-family: "Input Mono Lt";
+  visibility: visible;
+}
+
+.u-visuallyHidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@font-face {
+  font-family: "Barbour";
+  src: url("/fonts/barbour-webfont.woff2")
+      format("woff2"),
+    url("/fonts/barbour-webfont.woff")
+      format("woff"),
+    url("/fonts/barbour-webfont.eot")
+      format("eot"),
+    url("/fonts/barbour-webfont.ttf")
+      format("ttf");
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Barbour';
+  src: url('barbour-webfont.woff2') format('woff2'),
+    url('barbour-webfont.woff') format('woff'),
+    url('barbour-webfont.eot') format('eot'),
+    url('barbour-webfont.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Carmin';
+  src: url('Carmin0.2-ExtraBold.eot');
+  src: url('Carmin0.2-ExtraBold.woff2') format('woff2'),
+    url('Carmin0.2-ExtraBold.woff') format('woff'),
+    url('Carmin0.2-ExtraBold.svg') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nostra Sett';
+  src: url('Nostrav1.0-Sett.woff2') format('woff2'),
+    url('Nostrav1.0-Sett.woff') format('woff'),
+    url('Nostrav1.0-Sett.eot') format('eot');
+  font-style: normal;
+}
